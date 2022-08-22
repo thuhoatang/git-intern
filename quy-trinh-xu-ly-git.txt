@@ -1,0 +1,24 @@
+1. Có dự án của cty -> clone git về
+*Cú pháp: git clone <url>
+*Hoặc ở clone về folder: git clone <url> folder_name
+
+2. Có một feature mới. Nếu đang ở 1 branch khác, phải checkout về master và pull
+*Cú pháp: git checkout master
+*Cú pháp: git pull
+
+3. Kiểm tra cớ đã update chưa
+*Cú pháp: git log --oneline
+
+4. Checkout ra một branch mới để bắt đầu làm feauture. Thêm -b để giúp tạo branch và checkout sang đó luôn
+*Cú pháp: git checkout -b feature_branch
+
+5. Code ...
+
+6. Add những file đã sửa và stage
+*Cú pháp: git add .
+
+7. Thêm mô tả cho file vừa sửa
+*Cú pháp: git commit -m "name fix"
+
+8. push code lên repo
+*Cú pháp: git push origin feature_branch
